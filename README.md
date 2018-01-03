@@ -13,6 +13,7 @@ setup babel-loader for loading js/jsx files and used less-loader for loading les
 to use less-loader we  install style-loader and css-loader which will directly append CSS to our index.html
 we need to  tell webpack config where to output bundle.js.
 To end our webpack configuration will be providing the options for our dev server.
-
+Install redux & react-redux which will be used to integrated redux into our react application.
+Now let’s create a store.js in our project root directory. In this file, we will configure our redux store.
 ###clarify on this
 We also installed a babel plugin which can understand the new rest/spread operator syntax
